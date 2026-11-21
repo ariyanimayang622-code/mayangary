@@ -1,0 +1,237 @@
+<DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mochichezz: mochi, Dubai Chewy Cookie, dan Donut Mochi. Little Mochi, Big Happiness.">
+    <meta name="theme-color" content="#fff6f7">
+    <title>Mochichezz | Little Mochi, Big Happiness</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#beranda" class="logo" aria-label="Mochichezz, kembali ke beranda">
+                <span>Mochichezz<span class="logo-dot">.</span></span>
+            </a>
+            <nav class="desktop-menu" aria-label="Navigasi utama">
+                <a href="#beranda">Beranda</a>
+                <a href="#produk">Produk</a>
+                <a href="#cara-pesan">Cara Pesan</a>
+            </nav>
+            <a class="button button-small header-order" target="_blank" rel="noopener noreferrer"
+               href="https://wa.me/6281234567890?text=Halo%20admin%20Mochichezz%2C%20saya%20mau%20pesan%20dessert.%20Boleh%20lihat%20menunya%3F">
+                Pesan Sekarang <span aria-hidden="true">↗</span>
+            </a>
+            <!-- Menu versi HP: dibuka/ditutup oleh elemen HTML <details> -->
+            <details class="mobile-menu">
+                <summary aria-label="Buka menu navigasi">☰ Menu</summary>
+                <nav aria-label="Navigasi seluler">
+                    <a href="#beranda">Beranda</a>
+                    <a href="#produk">Produk</a>
+                    <a href="#cara-pesan">Cara Pesan</a>
+                    
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="beranda" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <h1>Cemilan manis,<br><em> bikin hari jadi lebih bahagia!</span></h1>
+                    <p>Mochi yang lembut dan kenyal, Dubai Chewy Cookie yang menggoda, serta Donat Mochi yang bikin jatuh cinta. Semua ada di <strong>Mochichezz!</strong></p>
+                    <div class="hero-buttons">
+                    </div>
+                    <div class="hero-trust" aria-label="Keunggulan Mochichezz">
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-visual-backdrop" aria-hidden="true"></div>
+                    <img src="img/toko mochi.jpeg"
+                         width="1280" height="960" fetchpriority="high">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produk" class="products-section section-padding">
+            <div class="container">
+                <div class="section-heading center">
+                    <h2>Menu <span>favoritmu</span></h2>
+                    <p>Pilih cemilan, lihat harganya, lalu klik tombol pesan. Gampang banget!</p>
+                </div>
+
+                <div class="catalog-shell">
+
+                    <input class="filter-input" id="filter-semua" type="radio" name="filter-produk" checked>
+                    <input class="filter-input" id="filter-mochi" type="radio" name="filter-produk">
+                    <input class="filter-input" id="filter-cookie" type="radio" name="filter-produk">
+                    <input class="filter-input" id="filter-donut" type="radio" name="filter-produk">
+
+                    <div class="catalog-toolbar" role="group" aria-label="Filter kategori produk">
+                        <label for="filter-semua">Semua Produk</label>
+                        <label for="filter-mochi">Mochi</label>
+                        <label for="filter-cookie">Cookie</label>
+                        <label for="filter-donut">Donut Mochi</label>
+                    </div>
+
+                    <div class="product-grid">
+                        <!-- PRODUK 1: MOCHI STROBERY | Harga Rp10.000 -->
+                        <article class="product-card category-mochi">
+                            <div class="product-photo">
+                                <img src="img/mochi strobery.jpeg" alt="Mochi stroberi berisi strobery" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Mochi • Strobery</span>
+                                <h3>Mochi Strobery</h3>
+                                <p>Mochi lembut dengan perpaduan rasa strobery yang manis dan segar.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp10.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Mochi Strobery melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Mochi%20Strawberry%20harga%20Rp10.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- PRODUK 2: MOCHI MATCHA | Harga Rp10.000 -->
+                        <article class="product-card category-mochi">
+                            <div class="product-photo">
+                                <img src="img/mochi matcha.jpeg" alt="Mochi berwarna hijau dengan isian matcha" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Mochi • Matcha</span>
+                                <h3>Mochi Matcha</h3>
+                                <p>Kenyal di luar, lembut di dalam, dengan rasa matcha yang khas.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp10.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Mochi Matcha melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Mochi%20Matcha%20harga%20Rp10.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- PRODUK 3: MOCHI COKLAT | Harga Rp10.000 -->
+                        <article class="product-card category-mochi">
+                            <div class="product-photo">
+                                <img src="img/mochi coklat.jpeg" alt="Mochi rasa coklat dengan isian cokelat creamy" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Mochi • coklat</span>
+                                <h3>Mochi coklat</h3>
+                                <p>Perpaduan mochi lembut dengan sensasi coklat yang kaya rasa.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp10.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Mochi coklat melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Mochi%20Chocolate%20harga%20Rp10.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- PRODUK 4: MOCHI VANILLA | Harga Rp10.000 -->
+                        <article class="product-card category-mochi">
+                            <div class="product-photo">
+                                <img src="img/mochi vanilla.jpeg" alt="Mochi vanilla dengan isian krim vanila" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Mochi • Vanilla</span>
+                                <h3>Mochi Vanilla</h3>
+                                <p>Rasa vanila yang lembut dan creamy untuk pencinta cemilan manis.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp10.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Mochi Vanilla melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Mochi%20Vanilla%20harga%20Rp10.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- PRODUK 5: DUBAI CHEWY COOKIE | Harga Rp25.000 -->
+                        <article class="product-card category-cookie">
+                            <div class="product-photo">
+                                <img src="img/dubai chewy cookie.jpeg" alt="Dubai Chewy Cookie dengan pistachio dan cokelat" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Cookie • Pistachio Chocolate</span>
+                                <h3>Dubai Chewy Cookie</h3>
+                                <p>Chewy cookie dengan kombinasi pistachio dan coklat yang istimewa.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp25.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Dubai Chewy Cookie melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Dubai%20Chewy%20Cookie%20Pistachio%20Chocolate%20harga%20Rp25.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- PRODUK 6: DONAT MOCHI STROBERY DAN COKLAT | Harga Rp15.000 -->
+                        <article class="product-card category-donut">
+                            <div class="product-photo">
+                                <img src="img/donat mochi.jpeg" alt="Donat mochi dengan taburan strobery dan coklat" width="840" height="840" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <span class="product-kind">Donat Mochi • Strobery dan Coklat</span>
+                                <h3>Donat Mochi Strobery dan Coklat</h3>
+                                <p>Donat mochi unik dengan rasa strobery dan coklat yang manis dan ceria.</p>
+                                <div class="product-bottom">
+                                    <div class="price-group"><small>Harga</small><strong>Rp15.000</strong></div>
+                                    <a class="order-button" aria-label="Pesan Donat Mochi Strobery dan Coklat melalui WhatsApp"
+                                       href="https://wa.me/6281234567890?text=Halo%20Mochichezz%2C%20saya%20mau%20pesan%20Donut%20Mochi%20Strawberry%20harga%20Rp15.000.%20Apakah%20tersedia%3F"
+                                       target="_blank" rel="noopener noreferrer">Pesan ↗</a>
+                                </div>
+                            </div>
+                        </article>
+                       
+        </section>
+
+        <!-- TABEL DATA PRODUK YANG SESUAI DENGAN DATA AWAL -->
+        <section class="price-list-section">
+            <div class="container">
+                <div class="price-list-card">
+                    <div class="price-list-title"><div><span class="eyebrow">PRICE LIST</span><h2>Daftar harga Mochichezz</h2></div><span class="price-list-sticker">♡</span></div>
+                    <div class="table-scroll">
+                        <table>
+                            <thead><tr><th>Produk</th><th>Varian</th><th>Harga</th></tr></thead>
+                            <tbody>
+                                <tr><td>Mochi</td><td>Strobery, Matcha, Coklat, Vanilla</td><td>Rp10.000</td></tr>
+                                <tr><td>Dubai Chewy Cookie</td><td>Pistachio Chocolate</td><td>Rp25.000</td></tr>
+                                <tr><td>Donat Mochi</td><td>Strobery, Coklat</td><td>Rp15.000</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAHAP PEMESANAN: -->
+        <section id="cara-pesan" class="steps-section section-padding">
+            <div class="container">
+                <div class="section-heading center">
+                    <h2>Cara pesan <span>Mochichezz</span></h2>
+                    <p>Tanpa ribet, kamu bisa langsung pesan cemilan favoritmu.</p>
+                </div>
+                <div class="steps-grid">
+                    <article class="step-card"><div class="step-icon">🍡</div><span class="step-number">01</span><h3>Pilih Menu</h3><p>Lihat foto, varian, dan harga pada katalog produk.</p></article>
+                    <article class="step-card"><div class="step-icon">💌</div><span class="step-number">02</span><h3>Klik Pesan</h3><p>Pilih tombol pesan di produk yang ingin kamu pesan.</p></article>
+                    <article class="step-card"><div class="step-icon">🎀</div><span class="step-number">03</span><h3>Konfirmasi</h3><p>Sampaikan jumlah pesanan dan detailnya kepada admin.</p></article>
+                </div>
+            </div>
+        </section>
+
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div><a class="footer-brand" href="#beranda">Mochichezz.</a><p>Little Mochi, Big Happiness.<br>Hal kecil yang manis, kebahagiaan yang besar.</p></div>
+            <div class="footer-links"><strong>Jelajahi</strong><a href="#beranda">Beranda</a><a href="#produk">Produk</a><a href="#cara-pesan">Cara Pesan</a></div>
+            
+        </div>
+        <div class="container footer-bottom"><span>
+    </footer>
+</body>
+</html>
